@@ -23,6 +23,7 @@ This repository contains **scripts to create your own Archlinux easily**.
 #### Step 2 :
 - Execute `loadkeys fr`    
 - Download [`arch_install.sh`](https://github.com/toro-nicolas/morpheus/blob/main/arch_install.sh) with `curl -O https://raw.githubusercontent.com/toro-nicolas/morpheus/main/arch_install.sh` or `wget [https://github.com/toro-nicolas/morpheus/arch_install.sh](https://raw.githubusercontent.com/toro-nicolas/morpheus/main/arch_install.sh)`    
+- Execute `chmod +x arch_install.sh`     
 - Execute `./arch_install.sh`    
 - Follow the instructions    
 
