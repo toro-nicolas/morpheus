@@ -49,7 +49,8 @@ This repository contains **scripts to create your own Archlinux easily**.
 - Launch the virtual machine and install the server    
 - Download apache2, sshd and phpmyadmin    
 - Configure SSH on the Ubuntu server    
-- Configure apache2    
+- Configure apache2
+- Configure phpmyadmin    
 - Make a website    
 - Edit the /etc/hosts    
 - Check on all machine if the you can connect to the website    
