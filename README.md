@@ -14,16 +14,48 @@ This repository contains **scripts to create your own Archlinux easily**.
 
 ### How it work ? 💻
 #### Step 1 :
-- Donwload and install Virtual Box
-- Download [Archlinux ISO](http://mir.archlinux.fr/iso/latest/archlinux-x86_64.iso), [Debian ISO](https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-12.4.0-amd64-netinst.iso) and the [Ubuntu Server ISO](https://ubuntu.com/download/server)
+- Donwload and install Virtual Box    
+- Download [Archlinux ISO](http://mir.archlinux.fr/iso/latest/archlinux-x86_64.iso), [Debian ISO](https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-12.4.0-amd64-netinst.iso) and the [Ubuntu Server ISO](https://ubuntu.com/download/server)    
 - Create a first virtual machine with 2 cores, 4096MB RAM, 32GB ROM, disable EFI and leave in NAT network, named "client_{YOUR_NAME}".    
-- Inject the Archlinux ISO
-- Launch the virtual machine
+- Inject the Archlinux ISO    
+- Launch the virtual machine    
 
 #### Step 2 :
-- Execute `loadkeys fr`
-- Download [`arch_install.sh`]() with `curl -O https://github.com/toro-nicolas/morpheus/arch_install.sh` or `wget https://github.com/toro-nicolas/morpheus/arch_install.sh`
-- Execute `./arch_install.sh`
+- Execute `loadkeys fr`    
+- Download [`arch_install.sh`](https://github.com/toro-nicolas/morpheus/blob/main/arch_install.sh) with `curl -O https://raw.githubusercontent.com/toro-nicolas/morpheus/main/arch_install.sh` or `wget [https://github.com/toro-nicolas/morpheus/arch_install.sh](https://raw.githubusercontent.com/toro-nicolas/morpheus/main/arch_install.sh)`    
+- Execute `./arch_install.sh`    
+- Follow the instructions    
+
+#### Step 3 :
+- Eject the ISO, change the virtual machine to "Bridged adaptater" and connect your computer with your shared connection (because it don't work with the IONIS WiFi)    
+- Launch virtual machine on Archlinux    
+- Configure SSH on Archlinux    
+- Add bonus    
+- Check all configuration    
+
+#### Step 4 :
+- Inject the Debian ISO    
+- Launch the graphical Debian install and follow the instructions    
+- Choose a LVM partitionning in Debian (you need to have sda1 (with vg1) for Archlinux and sda2 (with vg2) for Debian and on each you need to have a root (ext4), a home (ext4), a boot (ext2) and a swap)    
+- Install Cinnamon and grub on the sda    
+- Launch Debian    
+- Add all users (with NOPASSWD for sudoers)    
+- Configure SSH on Archlinux    
+- Add bonus    
+- Check all configuration    
+
+#### Step 5 :
+- Create a new virtual machine with 2 cores, 4096MB RAM, 10GB ROM, disable EFI and birdged adaptater network, named "morpheus_{YOUR_NAME}"    
+- Launch the virtual machine and install the server    
+- Download apache2, sshd and phpmyadmin    
+- Configure SSH on the Ubuntu server    
+- Configure apache2    
+- Make a website    
+- Edit the /etc/hosts    
+- Check on all machine if the you can connect to the website    
+    
+For more informations, check the [Instructions.md](https://github.com/toro-nicolas/morpheus/blob/main/instructions.md)    
+
 
 ### Final result 🚩
 I obtained a mark of 33/34 with bonus.    
