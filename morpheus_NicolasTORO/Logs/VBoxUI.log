@@ -1,0 +1,74 @@
+00:00:00.211714 VirtualBox GUI (separate) 7.0.12_rpmfusion r159484 linux.amd64 (Oct 17 2023 00:00:00) release log
+00:00:00.211715 Log opened 2024-01-15T19:41:47.043672000Z
+00:00:00.211716 Build Type: release
+00:00:00.211717 OS Product: Linux
+00:00:00.211717 OS Release: 6.6.9-100.fc38.x86_64
+00:00:00.211718 OS Version: #1 SMP PREEMPT_DYNAMIC Mon Jan  1 20:31:07 UTC 2024
+00:00:00.211733 DMI Product Name: 83BF
+00:00:00.211736 DMI Product Version: IdeaPad Slim 5 14IAH8
+00:00:00.211744 Firmware type: UEFI
+00:00:00.212485 Secure Boot: Disabled
+00:00:00.212519 Host RAM: 15714MB (15.3GB) total, 8128MB (7.9GB) available
+00:00:00.212521 Executable: /usr/lib64/virtualbox/VirtualBoxVM
+00:00:00.212521 Process ID: 78043
+00:00:00.212521 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.212877 GUI: UIMediumEnumerator: Initial medium-enumeration finished!
+00:00:00.532711 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:00.569873 GUI: UIFrameBufferPrivate::performResize: Size=640x480, Using fallback buffer since no source bitmap is provided
+00:00:00.575662 GUI: UIMachineViewNormal::resendSizeHint: Restoring guest size-hint for screen 0 to 800x600
+00:00:00.607288 QDBus inhibition call error for service org.freedesktop.ScreenSaver: org.gtk.GDBus.UnmappedGError.Quark._g_2dio_2derror_2dquark.Code36. GDBus.Error:org.gnome.SessionManager.GeneralError: Unable to uninhibit: Invalid cookie
+00:00:00.607778 QDBus inhibition call error for service org.freedesktop.ScreenSaver: org.gtk.GDBus.UnmappedGError.Quark._g_2dio_2derror_2dquark.Code36. GDBus.Error:org.gnome.SessionManager.GeneralError: Unable to uninhibit: Invalid cookie
+00:00:00.608218 QDBus inhibition call error for service org.gnome.SettingsDaemon.ScreensaverProxy: org.gtk.GDBus.UnmappedGError.Quark._g_2dio_2derror_2dquark.Code36. GDBus.Error:org.gnome.SessionManager.GeneralError: Unable to uninhibit: Invalid cookie
+00:00:00.608566 QDBus inhibition call error for service org.gnome.SettingsDaemon.ScreensaverProxy: org.gtk.GDBus.UnmappedGError.Quark._g_2dio_2derror_2dquark.Code36. GDBus.Error:org.gnome.SessionManager.GeneralError: Unable to uninhibit: Invalid cookie
+00:00:00.630090 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:00.630117 GUI: UIFrameBufferPrivate::performResize: Size=720x400, Using fallback buffer since no source bitmap is provided
+00:00:00.639306 GUI: UISession::sltAdditionsChange: GA state change event came, notifying listeners
+00:00:00.639327 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=1, Machine-state=6
+00:00:00.639906 GUI: HID LEDs sync is not supported on this platform
+00:00:00.648503 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 0x32 x 1920x1168
+00:00:00.665484 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=1, Machine-state=6
+00:00:00.954578 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:04.623309 GUI: UIFrameBufferPrivate::performResize: Size=800x600, Using fallback buffer since no source bitmap is provided
+00:00:04.933343 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:07.046704 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:11.607857 GUI: UISession::sltAdditionsChange: GA state really changed, notifying listeners
+00:00:11.607880 GUI: UIMachineViewNormal::adjustGuestScreenSize: Adjust guest-screen size if necessary
+00:00:11.607984 GUI: UISession::sltAdditionsChange: GA state change event came, notifying listeners
+00:00:11.607986 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=1, Machine-state=6
+00:00:11.608294 GUI: UISession::sltAdditionsChange: GA state change event came, notifying listeners
+00:00:11.608303 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=1, Machine-state=6
+00:00:11.608593 GUI: UISession::sltAdditionsChange: GA state change event came, notifying listeners
+00:00:11.608595 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=1, Machine-state=6
+00:42:17.266497 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:42:17.874316 GUI: UIFrameBufferPrivate::performResize: Size=800x600, Using fallback buffer since no source bitmap is provided
+00:42:17.894430 GUI: UISession::sltAdditionsChange: GA state really changed, notifying listeners
+00:42:17.894483 GUI: UIMachineViewNormal::adjustGuestScreenSize: Adjust guest-screen size if necessary
+00:42:17.894844 GUI: UISession::sltAdditionsChange: GA state change event came, notifying listeners
+00:42:17.894867 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=1, Machine-state=6
+00:42:17.894935 GUI: UIFrameBufferPrivate::performResize: Size=720x400, Using fallback buffer since no source bitmap is provided
+00:42:17.896544 GUI: UIMachineLogic: Guest-screen count changed
+00:42:17.991720 GUI: UIFrameBufferPrivate::performResize: Size=640x480, Using fallback buffer since no source bitmap is provided
+00:42:20.619919 GUI: UIFrameBufferPrivate::performResize: Size=720x400, Using fallback buffer since no source bitmap is provided
+00:42:20.732428 GUI: UIFrameBufferPrivate::performResize: Size=640x480, Using fallback buffer since no source bitmap is provided
+00:42:21.844822 GUI: UIFrameBufferPrivate::performResize: Size=720x400, Using fallback buffer since no source bitmap is provided
+00:42:23.757228 GUI: UIFrameBufferPrivate::performResize: Size=800x600, Using fallback buffer since no source bitmap is provided
+00:42:26.115736 GUI: UISession::sltAdditionsChange: GA state really changed, notifying listeners
+00:42:26.115754 GUI: UIMachineViewNormal::adjustGuestScreenSize: Adjust guest-screen size if necessary
+00:42:26.115870 GUI: UISession::sltAdditionsChange: GA state change event came, notifying listeners
+00:42:26.115872 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=1, Machine-state=6
+00:42:26.116166 GUI: UISession::sltAdditionsChange: GA state change event came, notifying listeners
+00:42:26.116168 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=1, Machine-state=6
+00:42:26.116413 GUI: UISession::sltAdditionsChange: GA state change event came, notifying listeners
+00:42:26.116414 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=1, Machine-state=6
+00:44:49.923994 GUI: UIMediumEnumerator: Medium-enumeration finished!
+01:18:33.622236 GUI: UIMediumEnumerator: Medium-enumeration finished!
+01:18:41.537505 GUI: UIMediumEnumerator: Medium-enumeration finished!
+01:18:41.550113 GUI: UIMediumEnumerator: Medium-enumeration finished!
+01:18:49.648112 GUI: Request for close-action to save VM state.
+01:18:49.648404 GUI: Saving VM state..
+01:18:49.683425 GUI: UIMediumEnumerator: Medium-enumeration finished!
+01:18:56.813220 GUI: Passing request to close Runtime UI from UI session to UI machine.
+01:18:56.816537 GUI: UICommon: Handling aboutToQuit request..
+01:18:57.657153 ERROR [COM]: aRC=NS_ERROR_UNEXPECTED (0x8000ffff) aIID={c0447716-ff5a-4795-b57a-ecd5fffa18a4} aComponent={SessionWrap} aText={The session is not locked (session state: Unlocked)}, preserve=false aResultDetail=0
+01:18:57.658038 ERROR [COM]: aRC=NS_ERROR_UNEXPECTED (0x8000ffff) aIID={c0447716-ff5a-4795-b57a-ecd5fffa18a4} aComponent={SessionWrap} aText={The session is not locked (session state: Unlocked)}, preserve=false aResultDetail=0
+01:18:57.666154 GUI: UICommon: aboutToQuit request handled!
